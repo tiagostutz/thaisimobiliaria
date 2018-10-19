@@ -1,0 +1,17 @@
+{
+  "name": "thaisimobiliaria",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^1.1.2",
+    "request": "^2.74.0",
+    "sendgrid": "latest"
+  }
+}

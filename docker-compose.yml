@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  thaisimobiliaria:
+    build: ./src
+    restart: always
+    image: tiagostutz/thaisimobiliaria:1.2.0
+    build: ./src
+    network_mode: bridge

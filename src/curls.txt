@@ -1,0 +1,24 @@
+curl 'http://www.thaisimobiliariadf.com.br/imobiliar/prg/crLogin.php'
+-H 'Origin: http://www.thaisimobiliariadf.com.br'
+-H 'Accept-Encoding: gzip, deflate'
+-H 'Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4'
+-H 'Upgrade-Insecure-Requests: 1'
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+-H 'Content-Type: application/x-www-form-urlencoded'
+-H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+-H 'Cache-Control: max-age=0'
+-H 'Referer: http://www.thaisimobiliariadf.com.br/imobiliar/clionline.html'
+-H 'Connection: keep-alive'
+--data 'we=1&LOGIN=23125&SENHA=5321&submit1=+++++Entrar+++++'
+--compressed
+
+
+curl 'http://www.thaisimobiliariadf.com.br/imobiliar/prg/exibeBoleto.php?fboleto=dados/bloquetos1/23125/L5724N201607.txt'
+-H 'Accept-Encoding: gzip, deflate, sdch'
+-H 'Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4'
+-H 'Upgrade-Insecure-Requests: 1'
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+-H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+-H 'Cache-Control: max-age=0' -H 'Cookie: PHPSESSID=1dbf34344a94c7043b7af178903494d3'
+-H 'Connection: keep-alive'
+-H 'If-Modified-Since: Sat, 17 Sep 2016 07:48:31 GMT' --compressed
